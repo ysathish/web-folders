@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  color: black;
+}
+
+.header h2 {
+  color: blue;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section {
+  width: calc(50% - 40px);
+}
+
+.beauty img,
+.construction img {
+   width:100%;
+   height:auto; 
+}
